@@ -83,7 +83,8 @@
   display: inherit;
 }
 #header-sub-menu:checked + .header__menu-link .rbcf-circle-down:before {
-  transform: rotate(90deg);
+  transform: rotate(180deg);
+  display: inline-block;
 }
 
 .rbcf-circle-down {
