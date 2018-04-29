@@ -17,7 +17,7 @@ html, body {
 }
 
 .content {
-  // margin-top: 5.2rem;
+  padding-top: 5.2rem;
 }
 
 .header__wrapper {
@@ -35,4 +35,6 @@ html, body {
 .header__body {
   background-image: url('asset/image/robertoblake2016header.jpg');
   height: 61.1rem;
+  background-position: center center;
+  background-size: cover;
 }
