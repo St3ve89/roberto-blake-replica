@@ -37,4 +37,12 @@ hr {
   border-top: 0.1rem solid $color-gallery;
   margin: 1.5rem;
 }
+
+.youtube-video-16-by-9 {
+  border: 1rem solid red;
+  width: 100%;
+  // get the percentage for 16 by 9
+  
+}
+
 @import 'landing-content';
