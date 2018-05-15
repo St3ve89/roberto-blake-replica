@@ -1,7 +1,7 @@
 @media screen and (min-width: 768px) {
   .header__menu-list {
     display: flex;
-    top: 0;
+    top: 0.8rem;
     z-index: 2;
     right: 0.1rem;
     left: inherit;
@@ -13,7 +13,7 @@
     position: relative;
 
     &:first-child .header__menu-link {
-      padding-top: 0;
+      padding-top: 0.5rem;
     }
 
     .header__sub-menu {
