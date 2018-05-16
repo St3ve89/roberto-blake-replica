@@ -22,8 +22,21 @@
 .button__small {
   @extend %button;
   padding: 0.5rem 1rem;
+  margin: 1rem 0;
+  display: inline-block;
 
   &:hover {
     text-decoration: none;
   }
 }
+
+// .button__yt {
+//   @extend %button;
+//   padding: 0.5rem 1rem;
+
+//   &:hover {
+//     text-decoration: none;
+//   }
+// }
+
+
