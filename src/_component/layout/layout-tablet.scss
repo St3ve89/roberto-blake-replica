@@ -3,14 +3,13 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     
-  }
-
-  .image {
-    
-  }
-
-  .text-justify {
-    padding: 0 2rem;
+    .image {
+      
+    }
+  
+    .text-justify {
+      padding: 0 2rem;
+    }
   }
 
   .two-column {
@@ -23,7 +22,7 @@
     text-align: justify;
   }
 
-  .landing-content {
+  .landing__content {
     display: flex;
     flex-wrap: wrap;
   }
