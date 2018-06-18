@@ -19,7 +19,8 @@ nav.header
                   a.header__menu-sub-link(href=dropdown.href, target=dropdown.target)=dropdown.text
                   href
         else
-          a.header__menu-link(href=item.href, target=item.target)=item.text
+          a.header__menu-link(href=`/${item.href}`, target=item.target)=item.text
+          //- a.header__menu-link(href="/"+item.href, target=item.target)=item.text
   .header__top
     span.header__name Roberto Blake
     label.rbcf-menu(for="toogle-top-menu")
